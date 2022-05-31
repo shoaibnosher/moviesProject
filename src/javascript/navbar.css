@@ -1,0 +1,41 @@
+
+  .App-logo {
+     
+      position: inherit;
+    height: 5vmin;
+ 
+  }
+  
+
+  .App-header {
+   
+    background-color: #7bc7d4;
+   color: antiquewhite;
+    font-size: calc(10px + 2vmin);
+   
+   
+  }
+  
+  .App-link {
+    
+    color: #61dafb;
+  }
+  .set-nav
+  {
+    color: antiquewhite;
+    margin-left: 5%;  
+  }
+  .text
+  {
+   
+      background-color: black;
+      color: white;
+      font-size:4rem;
+      font-style: oblique;
+  }
+
+  
+  
+  
+  
+  
