@@ -1,0 +1,35 @@
+.Dashboard
+{
+    height:600px ; 
+    width: 1350px;
+    background-color: black;
+    border-radius: 50px;
+    
+}
+.Dashboard-logo
+{
+    border-radius: 50px;
+    margin-top: 15%;
+    margin-left: 38%;
+    height: 80px;
+    width: 300px;
+}
+.Dashboard-input
+{
+    margin: 16px 0;
+    box-sizing: border-box;
+   border-width: medium;
+    text-align: center;
+    
+}
+.Slider
+{
+    text-align: center;
+    border-radius: 50px;;
+    height:600px;
+    width:150px;
+    background-color: rgb(0, 0, 0);
+  
+    font-size: 30px;
+    color: white;
+}

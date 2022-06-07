@@ -1,0 +1,20 @@
+  .head
+    {
+      font-style: bold;
+      font-size: 25px;
+      float: right;
+      padding-right: 100px;
+
+    }
+    .search_bar
+    {
+      margin-left:8%;
+
+      border-style:inset;
+      border-color: 2px solid green;
+      border: 2px solid grey;
+      width: 60%;
+      height: 40px;
+      
+      color: grey;
+    }

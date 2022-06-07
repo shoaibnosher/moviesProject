@@ -1,0 +1,21 @@
+.Footer
+{
+    margin-top: 1250px;
+    position:relative;
+    width: 1450px;
+    height: 60px;
+    background-color: rgb(13, 63, 110);
+ 
+}
+.Footer-text
+{
+ 
+    text-align: center;
+    margin-left: 5%;
+    color: rgb(255, 248, 248);
+  
+    font-size: 20px;
+   
+  }
+
+

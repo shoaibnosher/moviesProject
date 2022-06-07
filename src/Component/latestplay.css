@@ -1,0 +1,39 @@
+.LatestPlay
+{
+    
+    position:absolute;
+    max-width: 1450px;
+    max-height: 500px;
+    background-color: rgb(255, 255, 255);
+ 
+}
+.LatestPlay-text
+{
+ 
+    
+    color: rgb(0, 0, 0);
+  
+    font-size: 40px;
+   
+  }
+  .LatestPlay-box
+  {
+      text-align: center;
+     float: left;
+      margin-left: 5%;
+      margin-top:2%;
+    
+    height: 85%;
+    width: 12%;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 254, 254);
+  }
+  .LatestPlay-img
+  {
+
+      
+    height: 75%;
+    width: 100%;
+  }
+ 

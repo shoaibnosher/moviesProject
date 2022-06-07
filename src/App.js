@@ -1,25 +1,53 @@
-import logo from './logo_light.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+import React ,{useState} from 'react';
+
+
+import Login from './login'
+import Dashboard from './dashboard'
+import Navbar from './Component/navbar'
+import Search from './Component/search'
+import Screen from './Component/screen'
+import Primier from './Component/Primier'
+import Latestplay from './Component/latestplay'
+import Footer from './Component/footer'
+
+const App = ()=> {
+  const [switcher,setswitcher]=useState(true);
+  const HandleState=()=>{
+    setswitcher(!switcher);
+  }
+    
+  if(switcher)
+  {
+    return< Login  stateChanger={HandleState}/>
+   
+  }
+  else{
+    return(
+      <>
+       stateChanger={HandleState}
+            <Search/>
+            <Navbar />
+            <Screen/>
+            <Primier/>
+            <Latestplay/>
+            <Footer/>
+      
+          
+            
+            </>
+          ) 
+         
+
+    
+  }
+    
+
+    
+ 
+  
+
 }
 
 export default App;
