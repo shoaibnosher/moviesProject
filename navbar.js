@@ -5,28 +5,30 @@ import logo from './logo.svg';
 import './navbar.css';
 
 function Navbar(){
-
+  const HandleState=(event)=>{
+    event.preventDefault();
+   props.changeState();
+  }
 return(
+  
+<div className="nav">
 
-
-<div class="nav">
-
-<img src={logo} class="logo" />
+<img src={logo} className="logo" />
         
    
-        <a class="text"  >About</a>
+        <a className="text"  >About</a>
      
       
-        <a class="text" >HomeWork</a>
+        <a className="text" >HomeWork</a>
       
      
-        <a class="text" >
+        <a className="text" >
          Pricing
         </a>
        
-          <a class="text" >Solution</a>
-          <a class="text" >Feature</a>
-          <a class="text" >Login</a>
+          <a className="text" >Solution</a>
+          <a className="text" >Feature</a>
+          <a className="text" >Login</a>
 
 </div>
   

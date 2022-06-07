@@ -17,7 +17,7 @@ function Login(props){
     const [password,setpassword]=useState("");
     const HandleState=(event)=>{
         event.preventDefault();
-       
+       props.changeState();
 
         
     
@@ -32,31 +32,31 @@ function Login(props){
         
         <form onSubmit={HandleState}>
 
-<div class="Login" style={{ backgroundImage: `url(${bg})` } }>
+<div className="Login" style={{ backgroundImage: `url(${bg})` } }>
     
 
-<img src={logo} class="login-logo" />
+<img src={logo} className="login-logo" />
 
 <br></br>
 <h1 ></h1>
-            <div class="login-input">
+            <div className="login-input">
 
 
-            <input  class="login-input" 
+            <input  className="login-input" 
               type="text" 
               value={state}
               onChange={(e) => setState(e.target.value)
             }
             placeholder="Enter UserName" />
             <br></br>
-             <input class="login-input" 
+             <input className="login-input" 
               type="password" 
               value={password}
               onChange={(e) => setpassword(e.target.value)}
               placeholder="Enter Password"/>
             <br></br>
           
-          <input type="submit"  onclick={props.stateChanger}/>
+          <input type="submit"  onClick={props.stateChanger}/>
                 
             </div>
           

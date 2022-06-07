@@ -12,14 +12,14 @@ import imgPrimier from './primier.avif'
      return(
 
      
-        <div class="Primier">
+        <div className="Primier">
 
-            <h1 class="Primier-text">Premiers Movies</h1> 
+            <h1 className="Primier-text">Premiers Movies</h1> 
            
 
-            <div class="Primier-box">
+            <div className="Primier-box">
         <a href="ok">
-        <img  src={Image} class="Primier-img" />
+        <img  src={Image} className="Primier-img" />
         </a>
            
 
@@ -33,9 +33,9 @@ import imgPrimier from './primier.avif'
             </div>
             
     
-             <div class="Primier-box">
+             <div className="Primier-box">
              <a  href="ok">
-        <img  src={Image1} class="Primier-img" />
+        <img  src={Image1} className="Primier-img" />
         </a>
 
             <h1>
@@ -47,9 +47,9 @@ import imgPrimier from './primier.avif'
     
 
              </div>
-             <div class="Primier-box">
+             <div className="Primier-box">
              <a href="ok">
-        <img  src={Image2} class="Primier-img" />
+        <img  src={Image2} className="Primier-img" />
         </a>
              <h1>
                    Who We Are:A Cronical Racism In America
@@ -60,9 +60,9 @@ import imgPrimier from './primier.avif'
     
 
              </div>
-             <div class="Primier-box">
+             <div className="Primier-box">
              <a href="ok">
-        <img src={Image3} class="Primier-img" />
+        <img src={Image3} className="Primier-img" />
         </a>
              <h1>
                    RRR:(Stream in Hindi)
@@ -73,9 +73,9 @@ import imgPrimier from './primier.avif'
     
 
              </div>
-             <div class="Primier-box">
+             <div className="Primier-box">
              <a href="ok">
-        <img src={Image4} class="Primier-img" />
+        <img src={Image4} className="Primier-img" />
         </a>
              <h1>
                    BelFaST
@@ -88,7 +88,7 @@ import imgPrimier from './primier.avif'
              </div>
       
     
-             <img  src={imgPrimier} class="add-img" />
+             <img  src={imgPrimier} className="add-img" />
      </div>
 
 

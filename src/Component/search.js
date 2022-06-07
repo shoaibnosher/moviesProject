@@ -6,7 +6,7 @@ import Dashboard from './dashboard'
 import ReactDOM from 'react-dom/client';
 
 
-function Search(){
+function Search(props){
 
 return(
     
@@ -43,8 +43,7 @@ return(
 
         <a >Home</a>
                 <a href="#about">About</a>
-                <a href="">SignIn</a>
-                <input type="text" placeholder="Search.."></input>
+               <button onClick={props.stateChanger}> SIGN Out</button>
 
     </div>
    

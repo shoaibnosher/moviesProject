@@ -11,14 +11,14 @@ import imgadd from './stream.avif'
      return(
 
      
-        <div class="screen">
+        <div className="screen">
 
-            <h1 class="Screen-text">Recommended Movies</h1> 
+            <h1 className="Screen-text">Recommended Movies</h1> 
            
 
-            <div class="Screen-box">
+            <div className="Screen-box">
         <a href="ok">
-        <img  src={Image} class="Screen-img" />
+        <img  src={Image} className="Screen-img" />
         </a>
            
 
@@ -32,9 +32,9 @@ import imgadd from './stream.avif'
             </div>
             
     
-             <div class="Screen-box">
+             <div className="Screen-box">
              <a  href="ok">
-        <img  src={Image1} class="Screen-img" />
+        <img  src={Image1} className="Screen-img" />
         </a>
 
             <h1>
@@ -46,9 +46,9 @@ import imgadd from './stream.avif'
     
 
              </div>
-             <div class="Screen-box">
+             <div className="Screen-box">
              <a href="ok">
-        <img  src={Image2} class="Screen-img" />
+        <img  src={Image2} className="Screen-img" />
         </a>
              <h1>
                     Bhool Bulliya 2
@@ -59,9 +59,9 @@ import imgadd from './stream.avif'
     
 
              </div>
-             <div class="Screen-box">
+             <div className="Screen-box">
              <a href="ok">
-        <img src={Image3} class="Screen-img" />
+        <img src={Image3} className="Screen-img" />
         </a>
              <h1>
                     Major
@@ -72,9 +72,9 @@ import imgadd from './stream.avif'
     
 
              </div>
-             <div class="Screen-box">
+             <div className="Screen-box">
              <a href="ok">
-        <img src={Image4} class="Screen-img" />
+        <img src={Image4} className="Screen-img" />
         </a>
              <h1>
                     Vikram:Hitlist
@@ -87,7 +87,7 @@ import imgadd from './stream.avif'
              </div>
       
     
-             <img  src={imgadd} class="add-img" />
+             <img  src={imgadd} className="add-img" />
      </div>
 
 

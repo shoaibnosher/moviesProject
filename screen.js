@@ -5,7 +5,7 @@ import './scree.css';
      return(
 
      
-        <div class="screen">
+        <div className="screen">
       
     
 

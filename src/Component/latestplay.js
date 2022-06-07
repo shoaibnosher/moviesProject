@@ -10,14 +10,14 @@ import imgadd from './stream.avif'
      return(
 
      
-        <div class="LatestPlay">
+        <div className="LatestPlay">
 
-            <h1 class="LatestPlay-text">Latest Play</h1> 
+            <h1 className="LatestPlay-text">Latest Play</h1> 
            
 
-            <div class="LatestPlay-box">
+            <div className="LatestPlay-box">
         <a href="ok">
-        <img  src={Image} class="LatestPlay-img" />
+        <img  src={Image} className="LatestPlay-img" />
         </a>
            
 
@@ -31,9 +31,9 @@ import imgadd from './stream.avif'
             </div>
             
     
-             <div class="LatestPlay-box">
+             <div className="LatestPlay-box">
              <a  href="ok">
-        <img  src={Image1} class="LatestPlay-img" />
+        <img  src={Image1} className="LatestPlay-img" />
         </a>
 
             <h1>
@@ -45,9 +45,9 @@ import imgadd from './stream.avif'
     
 
              </div>
-             <div class="LatestPlay-box">
+             <div className="LatestPlay-box">
              <a href="ok">
-        <img  src={Image2} class="LatestPlay-img" />
+        <img  src={Image2} className="LatestPlay-img" />
         </a>
              <h1>
                    Theater Unit Guldasta
@@ -58,9 +58,9 @@ import imgadd from './stream.avif'
     
 
              </div>
-             <div class="LatestPlay-box">
+             <div className="LatestPlay-box">
              <a href="ok">
-        <img src={Image3} class="LatestPlay-img" />
+        <img src={Image3} className="LatestPlay-img" />
         </a>
              <h1>
                    Eka langnachi
@@ -71,9 +71,9 @@ import imgadd from './stream.avif'
     
 
              </div>
-             <div class="LatestPlay-box">
+             <div className="LatestPlay-box">
              <a href="ok">
-        <img src={Image4} class="LatestPlay-img" />
+        <img src={Image4} className="LatestPlay-img" />
         </a>
              <h1>
                    Aamne Samne
